@@ -1,0 +1,30 @@
+.parent-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 85%;
+    margin: 0 auto;
+	overflow: auto;
+}
+
+.parent-container .thumb-item {
+	margin-bottom: 10px;
+    padding: 15px;
+    float: left;
+    background: #f5f5f5;
+    margin-right: 15px;
+    min-width: 150px;
+    box-shadow: inset 0px 0.5px 1px 1px #d0cdcd;
+    text-align: center;
+    cursor: pointer;
+	width: 16%;
+}
+
+.parent-container .thumb-item:hover {
+    background: #fafafa;
+}
+
+.parent-container .thumb-item.selected{
+    background: #00a1ff;
+	color: #fff;
+	border-radius: 2px;
+}
